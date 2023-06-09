@@ -1,0 +1,94 @@
+{
+  "start": {
+    "imagen": [
+      {
+        "path": "./assets/inicio_test.png",
+        "fadein": 1,
+        "fadeout": 0
+      }
+      ,{
+        "path": "./assets/fin_test.png",
+        "fadein": 0,
+        "fadeout": 1
+      }
+    ],
+    "audio": [
+      {
+        "path": "",
+        "level": "",
+        "fadein": "",
+        "fadeout": ""
+      }
+    ],
+    "video": [
+      {
+        "path": "",
+        "level": "",
+        "fadein": "",
+        "fadeout": ""
+      }
+    ]
+  },
+  "main": {
+    "imagen": [],
+    "audio": [],
+    "video": [
+      {
+        "path": "./assets/main.mp4",
+        "level": "",
+        "fadein": "10",
+        "fadeout": "10"
+      }
+    ]
+  },
+  "end": {
+    "imagen": [
+      {
+        "path": "./assets/fin_test.png",
+        "fadein": "10",
+        "fadeout": "10"
+      }
+    ],
+    "audio": [
+      {
+        "path": "",
+        "level": "",
+        "fadein": "",
+        "fadeout": ""
+      }
+    ],
+    "video": [
+      {
+        "path": "",
+        "level": "",
+        "fadein": "",
+        "fadeout": ""
+      }
+    ]
+  },
+  "all": {
+    "imagen": [
+      {
+        "path": "",
+        "fadein": "10",
+        "fadeout": "10"
+      }
+    ],
+    "audio": [
+      {
+        "path": "",
+        "level": "",
+        "fadein": "",
+        "fadeout": ""
+      }
+    ],
+    "video": [
+      {
+        "path": "",
+        "level": "",
+        "fadein": "",
+        "fadeout": ""
+      }
+    ]
+  }
+}
