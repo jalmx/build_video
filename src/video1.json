@@ -3,12 +3,11 @@
     "imagen": [
       {
         "path": "./assets/inicio_test.png",
-        "fadein": 1,
-        "fadeout": 0
+        "fadein": 1
       }
       ,{
         "path": "./assets/fin_test.png",
-        "fadein": 0,
+
         "fadeout": 1
       }
     ],

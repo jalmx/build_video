@@ -32,8 +32,7 @@ def process_image(composition_imagen, duration, size=0):
     imagen = ImageClip(composition_imagen[PATH], transparent=True, duration=duration)
     fadein = composition_imagen.get(FADE_IN) if composition_imagen.get("FADE_IN") else 0
     fadeout = composition_imagen.get(FADE_OUT) if composition_imagen.get(FADE_OUT) else 0
-    result_video = CompositeVideoClip([imagen], size=imagen.size).fadeout(composition_imagen[FADE_OUT]).fadein(
-        composition_imagen[FADE_IN])
+    result_video = CompositeVideoClip([imagen], size=imagen.size).fadeout(fadeout).fadein(fadein)
 
     return result_video
 
